@@ -15,3 +15,5 @@ These two mindsets play an important role in all aspects of a person's life. Dwe
 Individuals with a "growth" theory are more likely to continue working hard despite setbacks.
 
 That is very important in some situations for example, children given praise such as "good job, you're very smart" are much more likely to develop a fixed mindset, whereas if given compliments like "good job, you worked very hard" they are likely to develop a growth mindset. In other words, it is possible to encourage students, for example, to persist despite failure by encouraging them to think about learning in a certain way.
+
+.
