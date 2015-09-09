@@ -1,1 +1,21 @@
-...
+Week 1.
+
+We have learn a lot, we have struggled a lot too but we are still in here and looking forward.
+
+I learn about Git, github, JavaScript and thinking out of the box. I am getting close of understanding 
+the way of thinking and facing the problems or situations where you are not comfortable with.
+
+We learn about functions and how they work, about arrays and how we can work with them and we are still `playing` 
+with setting the test to check if our code works. Pretty amazing and confusing at the same time.
+
+I have learnt about git and how to send my changes in files from local to remote with commands (add, commit and push)
+and the opposite when I need to start working with the files from remote to local (pull). Still tricky for me however 
+I can see improvements.
+
+I have learnt about JavaScript and its 4 primitive types (null, boolean, numbers and strings) and 2 contents (list or arrays
+dictionary as an object) and lots of tools to play with them.
+
+I learnt how to start thinking in order to solve a problem with code. Think about what variables to used, how and how to 
+get them related to the function.
+
+Now I have to share this with 2 more people.
