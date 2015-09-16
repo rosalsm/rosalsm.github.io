@@ -25,3 +25,16 @@ returns mental sanity.
 
 Probably some review the concepts and some JavaScript basics can help too and 20minutes/day of the return of the 
 NestedAccordion and friends will be a good options for improvement.
+
+
+Wed September 16.
+
+It is week 2 and a half. If I think about that it scares me. 
+
+We have a lot to do and I don’t really think I learn that much but I really did. The reason of that feeling is the way of learning. We have touched a lot of new concepts and none of those in a deep way. It seems like I have some idea of how DOM works or how JavaScript modifies the document but I don’t know if this is enough to solve my own problems in real life and work. Maybe not, but tt is a good starting point, it is week 2 and a half anyway.  I had nothing to compare. I never learnt that way before but anyway, we have several more weeks to go.
+
+We are adding now files in HTML for mobile, tablet and desktop, what? yes! I don’t know how to do it yet but I am sure that we’ll figure it out. 
+
+CSS is getting more complicated and interesting. I can decide whatever I want to add a new text line or the color or size of the text. The boxes and other properties are still a little blurry however after today’s assignment, I will be more familiar with that. 
+
+As usual, if you get your hands dirty, in the process of cleaning, you will learn the most.
