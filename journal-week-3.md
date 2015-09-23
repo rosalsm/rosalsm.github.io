@@ -17,4 +17,8 @@ This week is getting better and better. I love CSS and I love github and I promi
 
 Skitch, merged confilcts in github, pseudocoding,etc
 
+More info about last week. More merged conflicts and changing files. I think we touched something of JQuery but I really don’t know what. I have to return to that for sure it will be very helpful for me in order to remember JavaScript. 
+Talking about JS, last week finally I had the change to review some JS exercise from the previous week and It was really useful. I was thinking about the process of the event in the element and how to target the element and add an event listener for that. I think it is time for me to approach this issue by myself and move forward to this fear of the JavaScript
+
+
 
