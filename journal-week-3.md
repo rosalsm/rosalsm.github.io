@@ -13,4 +13,6 @@ from the big picture, the body. After that we can go for the smaller elements.
 
 We started making website responsive to the view ports changing to mobile and tablet view. That was impressive!
 
+This week is getting better and better. I love CSS and I love github and I promise I haven't been drinking. When you see things working you feel like a rock star!!!! I am sorry it is 10:17pm I think I can't write anything better.
+
 Skitch, merged confilcts in github, pseudocoding,etc
