@@ -1,15 +1,35 @@
 
-I would like to do my tutorial about HTML. At the same time that I am learning I can write so that way I will review 
-whatever I learn new everyday this week.
-Today was basics like elements in HTML. 
-How to start:
-<!DOCTYPE html> were we inform the the browser that we are using the last version of html and the begining of the document.
-<head> will be the next element and it identifies the top of the document including the metadata and it may include a document title.
+I would like to do my tutorial about HTML. 
+At the same time that I am learning I can write so that way I will review whatever I learn new everyday this week.
 
+HTML is a markup language and what it does is basically the representation of a web page in different elements. HTML separates content such as words, images, audio,etc from from how this content is displaying.
 
-I would like to add more entries in my tutorial like:
+HTML uses a set of elements to define content types. Elements are designators and define the structure and content of ovjects within a page. Those elements contain one or more "tags" that content or express content. Tags are enclosed by angle braches `< >`.
 
-<body> where all the visible content start.
+Elements have at least one tag, the one that it represents the beginning of this element, the opening tag `<p>` and most of them have a closing tag `</p>`. They have no white spaces in between characters. If we need to add comments with no code consequences we write this comments between <!- and ->
+
+How to start an HTML document:
+
+`<!DOCTYPE html>` 
+Should be the first element on the top of the html document. This element informs the the browser that we are using the last version of html and the begining of the document. 
+
+`<head>` 
+This is the part of the document after the doctype tag. This is the next element and it identifies the top of the document including the metadata and it may include a document title.
+
+`<body>`
+This element indicates where all the visible content start.
+
+Now that we have the beginning of the document we can add some more element depending on the content of our page.
+
+We normally start a new part of the document with a new section of it or with a special part of it such as a table or list or a simple paragraph. Those are some of the different options:
+
+##Text-based elements
+
+####Headings `<h1>, <h2>, <h3>,...,<h6>`
+They are titles for the different parts of the document.
+
+####Paragraphs `<p>`
+They are block-level elements. Normally contens a piece of text
 
 Divisions <div> and Spans <span>
 
