@@ -59,3 +59,30 @@ Each opening tags of the elements in the DOM tree can carry attributes and they 
 ### Text Nodes
 
 Once we can access to an element, like it happens with the attribute, we can access to the text within that element. This is stored in its own text node.
+
+## Working with the DOM tree
+
+When we work with the DOM tree we normally go through two steps:
+
+### 1.Access the elements
+
+##### We can do it selecting one element
+
+`getElementById()`. Select the element by its unique attribute id
+
+`querySelector()`. Select the first match.
+
+##### multiple elements
+
+`getElementsByClassName()`. Selects all elements with specific value in their class 			attribute
+
+`getElementsByTagName()`. Select all elements that have specific tag name
+
+`querySelector()`. Select all matching elements
+
+##### traversing between element nodes
+
+`parentNode`. Selects the parent of the current element node.
+
+`previousSibling`. Selects the previous sibling.
+
