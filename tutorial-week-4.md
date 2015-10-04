@@ -4,16 +4,16 @@
 
 The Document Model Object specifies how browsers should create a model of an HTML page and how Javascript can access and update the contents of a web page while it is in the browser window.
 
-The DOM is not part of the HTML or Javascript so it has its own separate rules. This rules primarily cover:
+#### The DOM is not part of the HTML or Javascript so it has its own separate rules. 
+
+This rules primarily cover:
 
 Making a model of the HTML page and
 
 Accessing and changing the HTML page.
 
 
-
-
-The DOM is an API (application programming interface)
+#### The DOM is an API (application programming interface)
 
 When a browser loads a web page, it creates a model of that page that it is stored in the browser’s memory.
 
