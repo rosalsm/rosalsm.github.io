@@ -8,7 +8,9 @@ The DOM is not part of the HTML or Javascript so it has its own separate rules. 
 
 Making a model of the HTML page and
 
-Accessing and changing the HTML page
+Accessing and changing the HTML page.
+
+
 
 The DOM is an API (application programming interface)
 
