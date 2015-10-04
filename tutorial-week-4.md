@@ -12,6 +12,7 @@ Accessing and changing the HTML page.
 
 
 
+
 The DOM is an API (application programming interface)
 
 When a browser loads a web page, it creates a model of that page that it is stored in the browser’s memory.
