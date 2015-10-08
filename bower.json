@@ -1,0 +1,20 @@
+{
+  "name": "rosalsm.github.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rosalsm/rosalsm.github.io",
+  "authors": [
+    "rosa <r215130@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

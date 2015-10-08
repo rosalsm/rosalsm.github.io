@@ -1,0 +1,30 @@
+{
+  "name": "rosalsm.github.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "chai": "^3.3.0",
+    "bower": "^1.5.3",
+    "gulp": "^3.9.0",
+    "node-sass": "^3.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start":"browser-sync start --server --directory --startPath='src/index.html'",
+    "sass":"node-sass src/scss/main.scss src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosalsm/rosalsm.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosalsm/rosalsm.github.io/issues"
+  },
+  "homepage": "https://github.com/rosalsm/rosalsm.github.io#readme"
+}
