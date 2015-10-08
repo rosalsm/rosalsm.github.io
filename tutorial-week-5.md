@@ -1,5 +1,7 @@
 My tutorial this week it will be about CSS selectors
 
+I think it could be useful just to have a list of them for a quick guide.
+
 ###The most important and useful CSS selectors are:
 
 #### `A`
