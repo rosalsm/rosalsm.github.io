@@ -36,6 +36,25 @@ This will select all `A` and `B` elements. You can combine any selectors this wa
 
 You can select all elements with the universal selector!
 
+#### `A*`
+
+This will select all elements inside of A.
+
+#### `A+B`
+
+This selects all B elements that directly follow A. Elements that follow one another are called siblings. They're on the same level, or depth. (next sibling or next child of the same parent). Selects every B elements placed immediatly after A.
+
+#### `A~B`
+
+You can select all siblings of an element that follow it. This is like the Adjacent Selector (A + B) except it gets all of the following elements instead of one. Selects every B element preceed by A.
+
+#### `A>B`
+
+You can select elements that are direct children of other elements. A child element is any element that is nested directly in another element. 
+
+
+I will continue with the rest next week...
+
 
 
 
