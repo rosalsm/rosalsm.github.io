@@ -27,3 +27,12 @@ DELETE. Removing data from the API
 HEAD. Getting just http header info.
 
 
+Last week wee learnt that an API endpoint is any URL that an API understands.
+The DOM is an API and a software is what we process in programming since the most simple calculator to the biggest complex code.
+
+We touched some concepts such as promises in jQuery.ajax()
+
+Last week we talked about minification also. Magnification is the fact of removing all of unnecessary spaces and carriage returns. As a result we have smaller files and faster downloads however we have to use regular spaces to read those files properly at human eye so before we read them, we translate them to regular files. Websites using jQuery usually use the min.js version to reduce download speeds.
+
+
+
