@@ -8,3 +8,10 @@ be exchange.
 
 We learnt about Encapsulation (big word for a big meaning) and IIFE (globals) and we use it for defense, making 
 easier to read code and working with teams.
+
+Last week we were still working on CSS and SCSS going into details  like how to make very good tabs and panels, very useful and clarify.
+We talked about octicons and how to use them, download them in your local computer or add a link as a CDN link in your html page.
+We add bower as a tool! Bower helps us installing options in our computer that we need to use in the browser and it stores them in bower_components. We learnt how to install bower in our computer with `bower init`  when bower is installed we can add more dependencies with `bower install —save lodash` (for example)
+
+Talking about lodash. Last week we started with same basic _.template in lodash. Basically we use variables in `<%=user%>` templates tags (user is just an example) and we change the value of the variable for the values in this function ` compiled ( { ‘user’ : ’fred’ }); ` Where we have a dictionary inside the parenthesis a value ‘fred’ for the key ‘user’. If we have more values for ‘user’ we can change the profile to another user.
+
