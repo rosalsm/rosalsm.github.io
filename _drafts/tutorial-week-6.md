@@ -1,6 +1,12 @@
-How to add sass and browser syn in package.json
+## How to add sass and browser syn in package.json
 
-sass and browser sync in json
+#### Step 1
+
+Open your package.json file and go to `"scripts"``.
+
+#### Step 2
+
+Add this 2 lines in your `"scripts"`
 
 ```
 "start": "browser-sync start --server --files='*.html,css/*.css,js/*.js'"
@@ -15,4 +21,3 @@ If we want to use browser-sync in our directory we need to use this path instead
 ```
 "start": "browser-sync start --server --directory"
 ```
-
