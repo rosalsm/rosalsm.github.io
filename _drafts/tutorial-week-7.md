@@ -1,6 +1,6 @@
 ### How to make columns in sass
 
-We normally use a percentage of the width to make columns, that way we can redistribute the available space for the comuns in an specific way. However sometimes we don't realize how different the result can be from 33% to 33.3333333%
+We normally use a percentage of the width to make columns, that way we can redistribute the available space for the comuns in an specific way. However sometimes we don't realize how different the result can be from 33% to 33.3333333% for example.
 
 If we want 2 columns:
 ```
