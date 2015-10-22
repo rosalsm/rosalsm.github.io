@@ -2,20 +2,22 @@
   "name": "rosalsm.github.io",
   "version": "0.0.3",
   "description": "",
-  "main": "main.js",
+  "main": "src/index.html",
   "dependencies": {
-    "chai": "^3.3.0",
     "bower": "^1.5.3",
+    "browser-sync": "^2.9.11",
+    "chai": "^3.3.0",
     "gulp": "^3.9.0",
-    "node-sass": "^3.3.3"
+    "node-sass": "^3.3.3",
+    "wiredep": "^2.2.2"
   },
   "devDependencies": {
     "mocha": "^2.3.3"
   },
   "scripts": {
     "test": "mocha",
-    "start":"browser-sync start --server --directory --startPath='src/index.html'",
-    "sass":"node-sass src/scss/main.scss src/css/main.css"
+    "start": "browser-sync start --server --directory --startPath='src/index.html'",
+    "sass": "node-sass src/scss/main.scss src/css/main.css"
   },
   "repository": {
     "type": "git",
