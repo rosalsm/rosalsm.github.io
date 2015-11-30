@@ -1,11 +1,19 @@
 
-$('.who').on('click', function(){
-  console.log('funciona');
- $(this).addClass('active').siblings().removeClass('active');
- $('div.tab-who').addClass('active').siblings().removeClass('active');
+$('a.who').on('click', function(){
+  console.log('funciona who');
+ $('a.who').toggleClass('active').siblings().removeClass('active');
+ $('div.tab-who').toggleClass('active').siblings().removeClass('active');
 })
-$('.journals').on('click', function(){
+$('a.journals').on('click', function(){
   console.log('funciona journals');
-  $(this).addClass('active').siblings().removeClass('active');
-  $('div.tab-journals').addClass('active').siblings().removeClass('active');
+  $('a.journals').toggleClass('active').siblings().removeClass('active');
+  $('div.tab-journals').toggleClass('active').siblings().removeClass('active');
+})
+$('a.tutorials').on('click',function(){
+  console.log('funciona tutorials');
+  $("a.tutorials").toggleClass('active').siblings().removeClass('active');
+  $('div.tab-tutorials').toggleClass('active').siblings().removeClass('active');
+})
+$('a.extras').on('click',function(){
+  console.log('funciona extras');
 })
