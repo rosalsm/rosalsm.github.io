@@ -1,0 +1,22 @@
+$green: rgb(60,179,113);
+$white: rgb(255,250,240);
+
+.main-nav{
+  background-color: $green;
+  color: $white;
+  @extend .clearfix;
+  .name-top{
+    margin-left: 10%;
+  }
+
+
+  .navigator{
+    float: right;
+    margin-right: 10%;
+    a{
+      text-decoration: none;
+      color: $white;
+    }
+  }
+
+}

@@ -1,0 +1,23 @@
+.about{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  @extend .clearfix;
+  border-bottom: 1px solid $green;
+  .photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+  }
+  .main-about{
+    float: right;
+    color: $green;
+    a{
+      text-decoration: none;
+      color: $green;
+      font-size: 2em;
+    }
+  }
+
+}
