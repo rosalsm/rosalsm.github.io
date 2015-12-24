@@ -31,7 +31,7 @@ h2{
     color: $green;
     font-weight: 300;
     h1{
-      font-size: 2em;
+      font-size: 3em;
       font-weight: 400;
       margin: 0;
     }
@@ -41,7 +41,10 @@ h2{
       margin: 0;
     }
     p{
-      color: #000000;
+      color: $darkgreen;
+      .tiy{
+        font-size: 1em;
+      }
     }
 
     a{
