@@ -1,0 +1,54 @@
+$w-title: 300;
+$s-title: 1.3em;
+
+
+h2{
+  font-weight: $w-title;
+  font-size: $s-title;
+}
+
+
+.about{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  @extend .clearfix;
+  border-bottom: 2px solid $green;
+  .r-photo{
+    width: 100% * (1/3);
+    .photo{
+      width: 100px;
+      height: 100px;
+      border-radius: 5%;
+      margin-left: 20%;
+    }
+  }
+  .main-about{
+    width: 100% * (2/3);
+    margin-top: -13%;
+    float: right;
+    color: $green;
+    font-weight: 300;
+    h1{
+      font-size: 2em;
+      font-weight: 400;
+      margin: 0;
+    }
+    h3{
+      font-size: 1.5em;
+      font-weight: 200;
+      margin: 0;
+    }
+    p{
+      color: #000000;
+    }
+
+    a{
+      text-decoration: none;
+      color: $green;
+      font-size: 2em;
+    }
+  }
+
+}

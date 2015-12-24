@@ -1,0 +1,36 @@
+$green: rgb(60,179,113);
+$white: rgb(255,250,240);
+
+body{
+  font-family: Roboto;
+}
+
+.main-nav{
+  //padding-top: 0;
+  background-color: $green;
+  color: $white;
+  @extend .clearfix;
+  .name-top{
+    margin-left: 10%;
+    width: 20%;
+    font-size: 2em;
+    font-weight: 200;
+  }
+
+
+  .navigator{
+    float: right;
+    margin-top: -5.5%;
+    width: 30%;
+    a{
+      text-decoration: none;
+      color: $white;
+      margin-right: 5%;
+      margin-bottom: 5%;
+      font-weight: 200;
+      font-size: 1.2em;
+
+    }
+  }
+
+}
