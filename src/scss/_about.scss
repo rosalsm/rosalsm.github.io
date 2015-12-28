@@ -45,15 +45,20 @@ h2{
       color: $darkgreen;
       font-weight: 300;
       font-size: 16px;
-      .tiy{
-        font-size: 1em;
-      }
+    }
+    .links{
+      font-size: 1em;
+      text-decoration: none;
+      color: $green;
     }
 
     a{
       text-decoration: none;
       color: $green;
       font-size: 2em;
+    }
+    a:hover{
+      color: $darkgreen;
     }
   }
 
