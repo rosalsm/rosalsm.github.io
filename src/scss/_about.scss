@@ -14,7 +14,7 @@ h2{
   margin-right: 10%;
   margin-top: 3%;
   @extend .clearfix;
-  border-bottom: 2px solid $green;
+  border-bottom: 4px solid $green;
   .r-photo{
     width: 100% * (1/3);
     .photo{
@@ -27,6 +27,7 @@ h2{
   .main-about{
     width: 100% * (2/3);
     margin-top: -13%;
+    margin-bottom: 2%;
     float: right;
     color: $green;
     font-weight: 300;
@@ -42,6 +43,8 @@ h2{
     }
     p{
       color: $darkgreen;
+      font-weight: 300;
+      font-size: 16px;
       .tiy{
         font-size: 1em;
       }
