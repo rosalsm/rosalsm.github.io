@@ -3,6 +3,12 @@
   margin-left: 10%;
   margin-right: 10%;
   border-bottom: 4px solid $green;
+  h4{
+    font-size: $s-title2;
+    font-weight: $w-title;
+    color: $green;
+    margin-left: 38%;
+  }
 }
 
 .contact-links{
@@ -20,10 +26,3 @@
     border-radius: 5%;
   }
 }
-  h4{
-    font-size: $s-title2;
-    font-weight: $w-title;
-    color: $green;
-    margin-left: 38%;
-
-  }
