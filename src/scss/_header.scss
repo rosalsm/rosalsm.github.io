@@ -8,9 +8,7 @@ body{
   font-family: Roboto;
   background-color: $lightgreen;
 }
-
 .main-nav{
-  //padding-top: 0;
   background-color: $green;
   color: $white;
   @extend .clearfix;
@@ -20,8 +18,9 @@ body{
     font-size: 2em;
     font-weight: 200;
   }
-
-
+  .fa-bars{
+    display: none;
+  }
   .navigator{
     float: right;
     margin-top: -5.5%;
@@ -33,11 +32,31 @@ body{
       margin-bottom: 5%;
       font-weight: 200;
       font-size: 1.2em;
-
     }
     a:hover{
       color: $darkgreen;
     }
   }
+}
+
+@media (max-width: 1024px) and (min-width: 768px){      //TABLET
+.main-nav{
+  .fa-bars{
+    display: inline;
+    float: right;
+    color: $white;
+    font-size: 3em;
+    margin-right: 5%;
+    margin-top: -8%;
+  }
+  .navigator{
+    display: none;
+  }
+}
+
+
+}
+
+@media (max-width: 767px) {           //MOBILE
 
 }
