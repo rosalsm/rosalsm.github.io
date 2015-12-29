@@ -1,8 +1,12 @@
 $green: rgb(60,179,113);
 $white: rgb(255,250,240);
+//$lightgreen: #E5F7DF;
+$lightgreen: rgb(237,250,245);
+$darkgreen: rgb(6,64,41);
 
 body{
   font-family: Roboto;
+  background-color: $lightgreen;
 }
 
 .main-nav{
@@ -30,6 +34,9 @@ body{
       font-weight: 200;
       font-size: 1.2em;
 
+    }
+    a:hover{
+      color: $darkgreen;
     }
   }
 

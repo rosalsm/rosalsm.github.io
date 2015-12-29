@@ -1,0 +1,29 @@
+.contact{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 4px solid $green;
+}
+
+.contact-links{
+  width: 30%;
+  margin-left: 37%;
+  margin-right: 33%;
+  margin-bottom: 5%;
+  @extend .clearfix;
+  a{
+    display: inline-block;
+    font-size: 3em;
+    margin-right: 2%;
+  }
+  .fa-sticky-note{
+    border-radius: 5%;
+  }
+}
+  h4{
+    font-size: $s-title2;
+    font-weight: $w-title;
+    color: $green;
+    margin-left: 38%;
+
+  }
