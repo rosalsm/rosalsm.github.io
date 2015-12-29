@@ -1,5 +1,6 @@
 $w-title: 300;
-$s-title: 1.3em;
+$s-title: 1.7em;
+$s-title2:1.5em;
 
 
 h2{
@@ -51,15 +52,16 @@ h2{
       text-decoration: none;
       color: $green;
     }
-
-    a{
-      text-decoration: none;
-      color: $green;
-      font-size: 2em;
-    }
-    a:hover{
+    .links:hover{
       color: $darkgreen;
     }
   }
-
+}
+.fa{
+  text-decoration: none;
+  color: $green;
+  font-size: 2em;
+}
+.fa:hover{
+  color: $darkgreen;
 }

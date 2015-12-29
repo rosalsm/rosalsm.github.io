@@ -5,7 +5,7 @@
   @extend .clearfix;
 }
 .title-section{
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 400;
   color: $green;
   width: 20%;
@@ -17,6 +17,10 @@
   margin-top: 2%;
   border-bottom: 2px solid $green;
   @extend .clearfix;;
+}
+.portfolio .work:last-child{
+  border-bottom: 4px solid $green;
+
 }
 .text{
   width: 100% * (2/3);
@@ -35,6 +39,9 @@
     font-size: 1em;
     text-decoration: none;
     color: $green;
+  }
+  .links:hover{
+    color: $darkgreen;
   }
 }
 .project-links{
