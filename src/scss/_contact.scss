@@ -7,7 +7,10 @@
     font-size: $s-title2;
     font-weight: $w-title;
     color: $green;
-    margin-left: 38%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
   }
 }
 
@@ -25,4 +28,13 @@
   .fa-sticky-note{
     border-radius: 5%;
   }
+}
+
+@media (max-width: 667px) {           //MOBILE
+.contact-links{
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
 }

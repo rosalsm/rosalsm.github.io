@@ -24,7 +24,7 @@ body{
   .navigator{
     float: right;
     margin-top: -5.5%;
-    width: 30%;
+    width: 40%;
     a{
       text-decoration: none;
       color: $white;
@@ -42,16 +42,14 @@ body{
 @media (max-width: 1024px) and (min-width: 668px){      //TABLET
 .main-nav{
   width: 100%;
-  content: " ";
-  display: table;
-  clear: both;
   .fa-bars{
-    display: inline;
-    float: right;
+    display: block;
     color: $white;
     font-size: 3em;
-    margin-right: 5%;
-    margin-top: -11%;
+    margin-left: 85%;
+    margin-right: 10%;
+    margin-top: -78px;
+    margin-bottom: 5%;
   }
   .no-hamburger{
     display: none;
@@ -62,7 +60,7 @@ body{
   .show-nav{
     width: 70%;
     float:right;
-    margin-top: -11%;
+    margin-top: -78px;
     a{
       text-decoration: none;
       color: $white;
@@ -81,25 +79,26 @@ body{
   }
 }
 
-
-
 }//END of TABLET
 
 
 @media (max-width: 667px) {           //MOBILE
   .main-nav{
     width: 100%;
-    content: " ";
-    display: table;
-    clear: both;
     .fa-bars{
-      //display: inline;
       display: block;
       float: right;
+      // color: $white;
+      // font-size: 3em;
+      // margin-right: 5%;
+      // margin-top: -23%;
+      // display: block;
       color: $white;
       font-size: 3em;
-      margin-right: 5%;
-      margin-top: -23%;
+      margin-left: 85%;
+      margin-right: 10%;
+      margin-top: -78px;
+      margin-bottom: 5%;
     }
     .no-hamburger{
       display: none;
@@ -109,11 +108,7 @@ body{
     }
     .show-nav{
       width: 100%;
-      //margin-left: 10%;
-      //margin-right: 10%;
-      //float:right;
       margin-top: -7%;
-      //display: block;
       a{
         display: block;
         text-decoration: none;

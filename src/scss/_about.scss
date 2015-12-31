@@ -13,7 +13,7 @@ h2{
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 3%;
+  margin-top: 5%;
   @extend .clearfix;
   border-bottom: 4px solid $green;
   .r-photo{
@@ -30,7 +30,7 @@ h2{
   .main-about{
     width: 100% * (2/3);
     margin-top: -22%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     float: right;
     color: $green;
     font-weight: 300;
@@ -66,4 +66,24 @@ h2{
 }
 .fa:hover{
   color: $darkgreen;
+}
+
+@media (max-width: 667px) {           //MOBILE
+.about{
+  .r-photo{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .main-about{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: none;
+    margin-top: 0%;
+  }
+
+
+}
+
 }
