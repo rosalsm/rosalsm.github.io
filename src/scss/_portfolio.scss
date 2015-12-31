@@ -4,61 +4,67 @@
   margin-right: 10%;
   @extend .clearfix;
 
+  .portfolio .work:last-child{
+    border-bottom: 4px solid $green;
+  }
+
 
   .work{
     margin-top: 2%;
     border-bottom: 2px solid $green;
     @extend .clearfix;
-  }
-  .portfolio .work:last-child{
-    border-bottom: 4px solid $green;
-  }
-  .text{
-    width: 100% * (2/3);
-    @extend .clearfix;
-  }
-  .project-title{
-    color: $green;
-    font-size: 1.5em;
-    font-weight: 300;
-  }
-  .project-exp{
-    color: $darkgreen;
-    font-weight: 300;
-    font-size: 16px;
-    width: 80%;
-    .links{
-      font-size: 1em;
-      text-decoration: none;
-      color: $green;
-    }
-    .links:hover{
-      color: $darkgreen;
-    }
-  }
-  .project-links{
-    color: $darkgreen;
-    a{
-      font-size: 1em;
-      font-weight: 200;
-      color: $green;
-      text-decoration: none;
-    }
-  }
-  .photo-proj{
-    //margin-top: -22%;
-    margin-bottom: 2%;
-    width: 100% * (1/3);
-    float: right;
 
-    img{
-    width: 70%;
-    margin-top: -70%;
-    //height: 200px;
-    //width: 75%;
-    border-radius: 20px;
+
+    .text{
+      width: 100% * (2/3);
+      @extend .clearfix;
+
+
+      .project-title{
+        color: $green;
+        font-size: 1.5em;
+        font-weight: 300;
+      }
+      .project-exp{
+        color: $darkgreen;
+        font-weight: 300;
+        font-size: 16px;
+        width: 80%;
+        .links{
+          font-size: 1em;
+          text-decoration: none;
+          color: $green;
+        }
+        .links:hover{
+          color: $darkgreen;
+        }
+      }
+      .project-links{
+        color: $darkgreen;
+        a{
+          font-size: 1em;
+          font-weight: 200;
+          color: $green;
+          text-decoration: none;
+        }
+      }
+
     }
-  }
+    .photo-proj{
+      margin-top: -25%;
+      //margin-bottom: 2%;
+      width: 100% * (1/3);
+      float: right;
+
+      img{
+      width: 70%;
+      //margin-top: -70%;
+      //height: 200px;
+      //width: 75%;
+      border-radius: 20px;
+      }
+    }
+ }
 }
 
 //title for all sections
@@ -66,22 +72,20 @@
   font-size: 3em;
   font-weight: 400;
   color: $green;
-  width: 20%;
-  margin-left: 40%;
-  margin-right: 40%;
+  width: 50%;
+  margin-left:25%;
+  margin-right: 25%;
   margin-bottom: 7%;
+  text-align: center;
 }
 
 @media (max-width: 1024px) and (min-width: 668px){      //TABLET
 .portfolio{
-  content: " ";
-  display: table;
-  clear: both;
-  .photo-proj{
-    img{
-      //margin-top:
+  .work{
+    .photo-proj{
+      margin-top:-40%;
     }
   }
-}
+ }
 
 }
