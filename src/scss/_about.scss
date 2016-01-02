@@ -49,23 +49,26 @@ h2{
       font-weight: 300;
       font-size: 16px;
     }
-    .links{
-      font-size: 1em;
-      text-decoration: none;
-      color: $green;
-    }
-    .links:hover{
-      color: $darkgreen;
-    }
   }
 }
-.fa{
+
+
+.links{  //For all links inside text
+  font-size: 1em;
+  text-decoration: none;
+  color: $green;
+}
+    // .links:hover{
+    //   color: $darkgreen;
+    // }
+
+.fa{ //For all awesome icons
   text-decoration: none;
   color: $green;
   font-size: 2em;
 }
-.fa:hover{
-  color: $darkgreen;
+a:hover{ //For all <a> tags 
+  color: $darkgreen !important;
 }
 
 @media (max-width: 667px) {           //MOBILE
