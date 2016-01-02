@@ -9,6 +9,9 @@ body{
   background-color: $lightgreen;
 }
 .main-nav{
+  //position: fixed;
+  //width: 100%;
+  //top: 0px;
   background-color: $green;
   color: $white;
   @extend .clearfix;
