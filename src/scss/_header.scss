@@ -52,11 +52,11 @@ body{
   .fa-bars{
     display: block;
     color: $white;
-    font-size: 3em;
+    font-size: 2em;
     margin-left: 85%;
     margin-right: 10%;
-    margin-top: -78px;
-    margin-bottom: 5%;
+    margin-top: -88px;
+    margin-bottom: 1%;
   }
   .no-hamburger{
     display: none;
@@ -67,7 +67,7 @@ body{
   .show-nav{
     width: 70%;
     float:right;
-    margin-top: -83px;
+    margin-top: -89px;
     a{
       text-decoration: none;
       color: $white;
@@ -92,21 +92,16 @@ body{
 @media (max-width: 667px) {           //MOBILE
   .main-nav{
     width: 100%;
-    .fa-bars{
+     .fa-bars{
       display: block;
       float: right;
-      // color: $white;
-      // font-size: 3em;
-      // margin-right: 5%;
-      // margin-top: -23%;
-      // display: block;
       color: $white;
-      font-size: 3em;
+      font-size: 2em;
       margin-left: 85%;
       margin-right: 10%;
-      margin-top: -78px;
-      margin-bottom: 5%;
-    }
+      margin-top: -88px;
+      margin-bottom: 1%;
+     }
     .no-hamburger{
       display: none;
     }
@@ -126,9 +121,9 @@ body{
         margin-right: 10%;
         width: 80%;
        }
-      a:hover{
-        color: $darkgreen;
-      }
+      // a:hover{
+      //   color: $darkgreen;
+      // }
     }
   }
 
