@@ -3,88 +3,151 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Blog by Rosa</title>
+        <title>rosalsm</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:Thin,Light,Medium,Italic,Normal,100,200,300,400,500">
+
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="src/css/normalize.css">
-        <link rel="stylesheet" href="src/css/main.css">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <header>
-          <h1>From Spain to Durham</h1>
-        </header>
-
         <main class="container">
 
-        <!-- for the navigation options -->
-        <nav class="top-nav">
-          <section class="after-nav">
-          <ul class="titles">
-            <li><a href="#who">Who I am</a>
-              <section class="who">
-                <ul>
-                  <li>
-                    <a href="#">From Spain</a>
-                  </li>
-                  <li>
-                    <a href="#">Why here</a>
-                  </li>
-                  <li>
-                    <a href="#">Durham</a>
-                  </li>
-                </ul>
-              </section>
-            </li><!-- end Who I am -->
+          <header class="main-nav">
+            <h4 class="name-top">rosalsm</h4>
+            <i class="fa fa-bars"></i>
 
-            <li>
-              <a href="#">Journals at TIY</a>
-              <section class="journals">
-                <ul>
-                  <li>
-                    <a href="#">Week 1</a>
-                  </li>
-                  <li>
-                    <a href="#">Week 2</a>
-                  </li>
-                  <li>
-                    <a href="#">Week 3</a>
-                  </li>
-                </ul>
-              </section>
-            </li><!-- end of Journals at TIY -->
+            <nav class="navigator">
+              <a href="#about">About</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="Resume-Rosa.pdf" target="_blank">Resume</a>
+              <a href="#contact">Contact</a>
+            </nav>
 
-            <li>
-              <a href="#">Tutorials at TIY</a>
-              <section class="tutorials">
-                <ul>
-                  <li><a href="#">Week 1</a></li>
+          </header>
 
-                  <li><a href="#">Week 2</a></li>
+          <section id="about" class="about">
+            <div class="r-photo">
+             <img src="img/rosalsm.jpg" class="photo"/>
+            </div>
 
-                  <li><a href="#">Week 3</a></li>
-                </ul>
-              </section>
-            </li><!-- end of Tutorials at TIY -->
+            <div class="main-about">
+              <h1>Rosa Lopez Sanchez</h1>
+              <h3>FRONT END DEVELOPER</h3>
+              <p>
+                Graduate Front End Engineering of <a href="https://www.theironyard.com/" target="_blank" class="links">The Iron Yard</a> in Durham, NC
+                <br>
+                Directly from Spain to Durham. I am very energetic and enthusiastic.
+                <br>
+                I like solving problems, clean code and I am very organized.
+                <br>
+                When I am not working, I like playing tennis and go to movies.
+              </p>
+              <a href="https://www.linkedin.com/in/rosalsm" target="_blank" class="fa fa-linkedin-square"></a>
+              <a href="https://twitter.com/rosalsm3" target="_blank" class="fa fa-twitter-square"></a>
+              <a href="https://github.com/rosalsm" target="_blank" class="fa fa-github"></a>
+              <a href="mailto:rosalsm3@gmail.com" class="fa fa-envelope-square"></a>
+            </div>
 
-            <li>
-              <a href="#">Extras</a>
-              <section class="extras">
-              </section>
-            </li><!-- end of Extras -->
-          </ul>
-        </section>
-        </nav>
+          </section><!--end #about-->
 
-        </main>
+          <section id="portfolio" class="portfolio">
+            <h2 class="title-section">Portfolio</h2>
 
-        <script src="../bower_components/jquery/dist/jquery.js"></script>
-        <script src="../bower_components/lodash/lodash.js"></script>
+            <article class="work">
+              <div class="text">
+              <h4 class="project-title">Communicant</h4>
+              <p class="project-exp">
+                Communicant is the cost-free application that helps anyone who is having trouble communicating, whether it is because of a separation, divorce, or if they are unable to be on speaking terms.
+                Communicant was built as a 3 week final project by a 4 people team (2 of them from the Front End class) in a Rails environment using jQuery, AngularJS, AJAX, HTML5, CSS3 and much more.
+                <!-- It includes:
+                An events page. Where you can organize and display special events such as games, practices or appointments.
+                A page that lists expenses so that they can be easily handled.
+                A predetermined messaging system so that the parties do not have to directly communicate. -->
+              </p>
+              <p class="project-links">
+                <a href="http://communicant-app.herokuapp.com/" target="_blank">VISIT PROJECT</a> | <a href="https://github.com/Communicant/app" target="_blank">VIEW CODE</a>
+              </p>
+              </div>
+              <!-- <div class="photo-proj"> -->
+                <img src="img/Communicant.png">
+              <!-- </div> -->
+            </article>
+
+            <article class="work">
+              <div class="text">
+              <h4 class="project-title">Stattracker</h4>
+              <p class="project-exp">
+                Stattracker is an application to help you keep your daily activities on track. Do you remember if you drink your 8 cups of water yesterday? did you walk your dog 3 times on Monday? Stattracker helps you to remember this details without losing your mind.
+                This is a 3 days collaborative effort of a 4 people team from TIY-Durham Python and Front-End Engineering classes.
+                We use AngularJS, jQuery, AJAX, HTML5 and CSS3.
+              </p>
+              <p class="project-links">
+                <a href="https://stattracker-gui.firebaseapp.com/#/user" target="_blank">VISIT PROJECT</a> | <a href="https://github.com/tiyd-stattracker/stattracker-gui" target="_blank">VIEW CODE</a>
+              </p>
+              </div>
+              <div class="photo-proj">
+                <img src="img/Stattracker.png">
+              </div>
+            </article>
+
+            <article class="work">
+              <div class="text">
+              <h4 class="project-title">Responsive Fullwidth</h4>
+              <p class="project-exp">
+                This project was a one night homework assignment at <a href="https://www.theironyard.com/" class="links">The Iron Yard</a>.
+                <br>
+                We used the <a href="http://tympanus.net/codrops/category/blueprints/" class="links">Tympanus Blueprints</a> examples to
+                build a responsive page and learn about CSS3, Sass and HTML5.
+                <br>
+                This is a very good example of how to make good grids.
+                <br>
+                I have good memories building this project, it was fun!
+                <br>
+              </p>
+              <p class="project-links">
+                <a href="https://rosalsm.github.io/TIY-Assignments/FULLWIDTH" target="_blank">VISIT PROJECT</a> | <a href="https://github.com/rosalsm/TIY-Assignments/tree/master/FULLWIDTH" target="_blank">VIEW CODE</a>
+              </p>
+              </div>
+              <div class="photo-proj">
+                <img src="img/Responsive.png">
+              </div>
+            </article>
+
+          </section><!--end #portfolio -->
+
+          <section id="contact" class="contact">
+            <h2 class="title-section">Contact</h2>
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/rosalsm" target="_blank" class="fa fa-linkedin-square"></a>
+              <a href="https://twitter.com/rosalsm3" target="_blank" class="fa fa-twitter-square"></a>
+              <a href="https://github.com/rosalsm" target="_blank" class="fa fa-github"></a>
+              <a href="mailto:rosalsm3@gmail.com" class="fa fa-envelope-square"></a>
+              <a href="Resume-Rosa.pdf" target="_blank" class="fa fa-sticky-note"></a>
+            </div>
+            <h4>Thank you | Gracias</h4>
+          </section>
+
+
+
+
+
+
+        </main><!--end .container-->
+
+
+        <script src="/bower_components/jquery/dist/jquery.js"></script>
+        <script src="/bower_components/angular/angular.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

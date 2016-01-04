@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start":"browser-sync start --server --directory --startPath='src/index.html'",
+    "start": "browser-sync start --server --directory",
     "sass":"node-sass src/scss/main.scss src/css/main.css"
   },
   "repository": {
