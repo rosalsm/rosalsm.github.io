@@ -8,24 +8,30 @@ body{
   font-family: Roboto;
   background-color: $lightgreen;
 }
-
 .main-nav{
-  //padding-top: 0;
+  position: fixed;
+  width: 100%;
+  top: 0px;
   background-color: $green;
   color: $white;
-  @extend .clearfix;
+  //@extend .clearfix;
   .name-top{
     margin-left: 10%;
     width: 20%;
     font-size: 2em;
-    font-weight: 200;
+    font-weight: 300;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    @extend .clearfix;
   }
-
-
+  .fa-bars{
+    display: none;
+  }
   .navigator{
     float: right;
-    margin-top: -5.5%;
-    width: 30%;
+    margin-top: -78px;
+    width: 40%;
     a{
       text-decoration: none;
       color: $white;
@@ -33,11 +39,92 @@ body{
       margin-bottom: 5%;
       font-weight: 200;
       font-size: 1.2em;
-
     }
     a:hover{
       color: $darkgreen;
     }
   }
-
 }
+
+@media (max-width: 1024px) and (min-width: 668px){      //TABLET
+.main-nav{
+  width: 100%;
+  .fa-bars{
+    display: block;
+    color: $white;
+    font-size: 2em;
+    margin-left: 85%;
+    margin-right: 10%;
+    margin-top: -88px;
+    margin-bottom: 1%;
+  }
+  .no-hamburger{
+    display: none;
+  }
+  .navigator{
+    display: none;
+  }
+  .show-nav{
+    width: 70%;
+    float:right;
+    margin-top: -89px;
+    a{
+      text-decoration: none;
+      color: $white;
+      width: 20%;
+      margin-right: 7%;
+      margin-bottom: 5%;
+      font-weight: 200;
+      font-size: 1.8em;
+    }
+    a:last-child{
+      margin-right: 0;
+    }
+    a:hover{
+      color: $darkgreen;
+    }
+  }
+}
+
+}//END of TABLET
+
+
+@media (max-width: 667px) {           //MOBILE
+  .main-nav{
+    width: 100%;
+     .fa-bars{
+      display: block;
+      float: right;
+      color: $white;
+      font-size: 2em;
+      margin-left: 85%;
+      margin-right: 10%;
+      margin-top: -88px;
+      margin-bottom: 1%;
+     }
+    .no-hamburger{
+      display: none;
+    }
+    .navigator{
+      display: none;
+    }
+    .show-nav{
+      width: 100%;
+      margin-top: -30px;
+      a{
+        display: block;
+        text-decoration: none;
+        color: $white;
+        font-weight: 200;
+        font-size: 1.8em;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+       }
+      // a:hover{
+      //   color: $darkgreen;
+      // }
+    }
+  }
+
+}//END of MOBILE
