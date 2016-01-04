@@ -13,7 +13,8 @@ h2{
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 5%;
+  //margin-top: 200px;
+  padding-top: 180px;
   @extend .clearfix;
   border-bottom: 4px solid $green;
   .r-photo{
@@ -67,7 +68,7 @@ h2{
   color: $green;
   font-size: 2em;
 }
-a:hover{ //For all <a> tags 
+a:hover{ //For all <a> tags
   color: $darkgreen !important;
 }
 
