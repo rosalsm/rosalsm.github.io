@@ -2,32 +2,31 @@ $w-title: 300;
 $s-title: 1.7em;
 $s-title2:1.5em;
 
-
 h2{
   font-weight: $w-title;
   font-size: $s-title;
 }
 
-
 .about{
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  //margin-top: 200px;
   padding-top: 180px;
   @extend .clearfix;
   border-bottom: 4px solid $green;
+
   .r-photo{
     width: 100% * (1/3);
     @extend .clearfix;
+
     .photo{
       width: 50%;
       border-radius: 5%;
       margin-left: 20%;
       margin-top: 10%;
-      //@extend .clearfix;
     }
   }
+
   .main-about{
     width: 100% * (2/3);
     margin-top: -22%;
@@ -35,16 +34,19 @@ h2{
     float: right;
     color: $green;
     font-weight: 300;
+
     h1{
       font-size: 3em;
       font-weight: 400;
       margin: 0;
     }
+
     h3{
       font-size: 1.5em;
       font-weight: 200;
       margin: 0;
     }
+
     p{
       color: $darkgreen;
       font-weight: 300;
@@ -59,35 +61,33 @@ h2{
   text-decoration: none;
   color: $green;
 }
-    // .links:hover{
-    //   color: $darkgreen;
-    // }
 
-.fa{ //For all awesome icons
+.fa{ //For all awesome font icons
   text-decoration: none;
   color: $green;
   font-size: 2em;
 }
+
 a:hover{ //For all <a> tags
   color: $darkgreen !important;
 }
 
-@media (max-width: 667px) {           //MOBILE
-.about{
-  .r-photo{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+//MOBILE
+@media (max-width: 667px) {
+  .about{
+
+    .r-photo{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    
+    .main-about{
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      float: none;
+      margin-top: 0%;
+    }
   }
-  .main-about{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    float: none;
-    margin-top: 0%;
-  }
-
-
-}
-
 }
