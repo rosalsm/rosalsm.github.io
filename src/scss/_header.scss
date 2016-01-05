@@ -1,6 +1,5 @@
 $green: rgb(60,179,113);
 $white: rgb(255,250,240);
-//$lightgreen: #E5F7DF;
 $lightgreen: rgb(237,250,245);
 $darkgreen: rgb(6,64,41);
 
@@ -8,13 +7,14 @@ body{
   font-family: Roboto;
   background-color: $lightgreen;
 }
+
 .main-nav{
   position: fixed;
   width: 100%;
   top: 0px;
   background-color: $green;
   color: $white;
-  //@extend .clearfix;
+
   .name-top{
     margin-left: 10%;
     width: 20%;
@@ -25,13 +25,16 @@ body{
     padding-bottom: 5px;
     @extend .clearfix;
   }
+
   .fa-bars{
     display: none;
   }
+
   .navigator{
     float: right;
     margin-top: -78px;
     width: 40%;
+
     a{
       text-decoration: none;
       color: $white;
@@ -40,58 +43,67 @@ body{
       font-weight: 200;
       font-size: 1.2em;
     }
+
     a:hover{
       color: $darkgreen;
     }
   }
 }
 
-@media (max-width: 1024px) and (min-width: 668px){      //TABLET
-.main-nav{
-  width: 100%;
-  .fa-bars{
-    display: block;
-    color: $white;
-    font-size: 2em;
-    margin-left: 85%;
-    margin-right: 10%;
-    margin-top: -88px;
-    margin-bottom: 1%;
-  }
-  .no-hamburger{
-    display: none;
-  }
-  .navigator{
-    display: none;
-  }
-  .show-nav{
-    width: 70%;
-    float:right;
-    margin-top: -89px;
-    a{
-      text-decoration: none;
-      color: $white;
-      width: 20%;
-      margin-right: 7%;
-      margin-bottom: 5%;
-      font-weight: 200;
-      font-size: 1.8em;
-    }
-    a:last-child{
-      margin-right: 0;
-    }
-    a:hover{
-      color: $darkgreen;
-    }
-  }
-}
-
-}//END of TABLET
-
-
-@media (max-width: 667px) {           //MOBILE
+//TABLET
+@media (max-width: 1024px) and (min-width: 668px){
   .main-nav{
     width: 100%;
+
+    .fa-bars{
+      display: block;
+      color: $white;
+      font-size: 2em;
+      margin-left: 85%;
+      margin-right: 10%;
+      margin-top: -88px;
+      margin-bottom: 1%;
+    }
+
+    .no-hamburger{
+      display: none;
+    }
+
+    .navigator{
+      display: none;
+    }
+
+    .show-nav{
+      width: 70%;
+      float:right;
+      margin-top: -89px;
+
+      a{
+        text-decoration: none;
+        color: $white;
+        width: 20%;
+        margin-right: 7%;
+        margin-bottom: 5%;
+        font-weight: 200;
+        font-size: 1.8em;
+      }
+
+      a:last-child{
+        margin-right: 0;
+      }
+
+      a:hover{
+        color: $darkgreen;
+      }
+    }
+  }
+}//END of TABLET
+
+ //MOBILE
+@media (max-width: 667px) {
+  .main-nav{
+    width: 100%;
+
      .fa-bars{
       display: block;
       float: right;
@@ -102,15 +114,19 @@ body{
       margin-top: -88px;
       margin-bottom: 1%;
      }
+
     .no-hamburger{
       display: none;
     }
+
     .navigator{
       display: none;
     }
+
     .show-nav{
       width: 100%;
       margin-top: -30px;
+
       a{
         display: block;
         text-decoration: none;
@@ -121,10 +137,6 @@ body{
         margin-right: 10%;
         width: 80%;
        }
-      // a:hover{
-      //   color: $darkgreen;
-      // }
     }
   }
-
 }//END of MOBILE
