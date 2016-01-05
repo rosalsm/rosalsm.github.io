@@ -20,8 +20,9 @@
           width: 100% * (2/3);
           @extend .clearfix;
           //margin-right: 0;
-
-
+          a{
+            text-decoration: none;
+          }
           .project-title{
             color: $green;
             font-size: 1.5em;
