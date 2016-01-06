@@ -11,12 +11,13 @@ h2{
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 180px;
+  padding-top: 220px;
+  padding-bottom: 65px;
   @extend .clearfix;
   border-bottom: 4px solid $green;
 
   .r-photo{
-    width: 100% * (1/3);
+    width: 40%;
     @extend .clearfix;
 
     .photo{
@@ -28,7 +29,7 @@ h2{
   }
 
   .main-about{
-    width: 100% * (2/3);
+    width: 60%;
     margin-top: -22%;
     margin-bottom: 5%;
     float: right;
@@ -51,6 +52,8 @@ h2{
       color: $darkgreen;
       font-weight: 300;
       font-size: 16px;
+      padding-bottom: 25px;
+      line-height: 26px;
     }
   }
 }
@@ -65,7 +68,7 @@ h2{
 .fa{ //For all awesome font icons
   text-decoration: none;
   color: $green;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 a:hover{ //For all <a> tags
@@ -75,13 +78,15 @@ a:hover{ //For all <a> tags
 //MOBILE
 @media (max-width: 667px) {
   .about{
+    padding-top: 155px;
 
     .r-photo{
       width: 90%;
       margin-left: 5%;
       margin-right: 5%;
+      padding-bottom: 30px;
     }
-    
+
     .main-about{
       width: 90%;
       margin-left: 5%;
@@ -89,5 +94,10 @@ a:hover{ //For all <a> tags
       float: none;
       margin-top: 0%;
     }
+  }
+
+  .fa{
+    font-size: 3em;
+    padding-right: 10px;
   }
 }
