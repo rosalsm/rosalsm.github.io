@@ -161,7 +161,8 @@ body {
       display: none; }
     .main-nav .show-nav {
       width: 100%;
-      margin-top: -30px; }
+      margin-top: -30px;
+      padding-bottom: 10px; }
       .main-nav .show-nav a {
         display: block;
         text-decoration: none;
@@ -169,8 +170,7 @@ body {
         font-weight: 200;
         font-size: 1.8em;
         margin-left: 10%;
-        margin-right: 10%;
-        width: 80%; } }
+        width: 35%; } }
 
 h2 {
   font-weight: 300;
@@ -180,17 +180,18 @@ h2 {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 180px;
+  padding-top: 220px;
+  padding-bottom: 65px;
   border-bottom: 4px solid mediumseagreen; }
   .about .r-photo {
-    width: 33.33333%; }
+    width: 40%; }
     .about .r-photo .photo {
       width: 50%;
       border-radius: 5%;
       margin-left: 20%;
       margin-top: 10%; }
   .about .main-about {
-    width: 66.66667%;
+    width: 60%;
     margin-top: -22%;
     margin-bottom: 5%;
     float: right;
@@ -207,7 +208,9 @@ h2 {
     .about .main-about p {
       color: #064029;
       font-weight: 300;
-      font-size: 16px; }
+      font-size: 16px;
+      padding-bottom: 25px;
+      line-height: 26px; }
 
 .links {
   font-size: 1em;
@@ -217,22 +220,28 @@ h2 {
 .fa {
   text-decoration: none;
   color: mediumseagreen;
-  font-size: 2em; }
+  font-size: 3em; }
 
 a:hover {
   color: #064029 !important; }
 
 @media (max-width: 667px) {
-  .about .r-photo {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%; }
-  .about .main-about {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    float: none;
-    margin-top: 0%; } }
+  .about {
+    padding-top: 155px; }
+    .about .r-photo {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding-bottom: 30px; }
+    .about .main-about {
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      float: none;
+      margin-top: 0%; }
+  .fa {
+    font-size: 3em;
+    padding-right: 10px; } }
 
 .portfolio {
   width: 80%;
@@ -256,12 +265,13 @@ a:hover {
         color: #064029;
         font-weight: 300;
         font-size: 16px;
-        padding-right: 5%; }
+        padding-right: 5%;
+        line-height: 26px; }
       .portfolio .work .text .project-links {
         color: #064029; }
         .portfolio .work .text .project-links a {
           font-size: 1em;
-          font-weight: 200;
+          font-weight: 300;
           color: mediumseagreen;
           text-decoration: none; }
     .portfolio .work img {
@@ -269,7 +279,7 @@ a:hover {
       border-radius: 20px;
       float: right;
       width: 33.33333%;
-      margin-bottom: 2%; }
+      margin-bottom: 4%; }
 
 .title-section {
   font-size: 3em;
@@ -293,7 +303,7 @@ a:hover {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 0;
-    margin-bottom: 5%; } }
+    margin-bottom: 15%; } }
 
 .contact {
   width: 80%;
@@ -308,7 +318,7 @@ a:hover {
     margin-right: 25%;
     width: 50%;
     text-align: center;
-    margin-bottom: 400px; }
+    margin-bottom: 150px; }
 
 .contact-links {
   width: 50%;
@@ -319,15 +329,21 @@ a:hover {
   .contact-links a {
     display: inline-block;
     font-size: 3em;
-    margin-right: 2%; }
+    margin-right: 1%; }
   .contact-links .fa-sticky-note {
     border-radius: 5%; }
+
+@media (max-width: 1024px) and (min-width: 668px) {
+  .contact h4 {
+    margin-bottom: 23em; } }
 
 @media (max-width: 667px) {
   .contact-links {
     width: 100%;
     margin-left: 0%;
-    margin-right: 0%; } }
+    margin-right: 0%;
+    margin-top: 70px;
+    margin-bottom: 70px; } }
 
 /* ==========================================================================
    Helper classes

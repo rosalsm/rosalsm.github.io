@@ -12,7 +12,7 @@
     margin-right: 25%;
     width: 50%;
     text-align: center;
-    margin-bottom: 400px;
+    margin-bottom: 150px;
   }
 }
 
@@ -26,11 +26,20 @@
   a{
     display: inline-block;
     font-size: 3em;
-    margin-right: 2%;
+    margin-right: 1%;
   }
 
   .fa-sticky-note{
     border-radius: 5%;
+  }
+}
+
+//TABLET
+@media (max-width: 1024px) and (min-width: 668px){
+  .contact{
+    h4{
+      margin-bottom: 23em;
+    }
   }
 }
 
@@ -40,5 +49,7 @@
     width: 100%;
     margin-left: 0%;
     margin-right: 0%;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 }
