@@ -1,11 +1,4 @@
 ;(function(){
-  // $('.fa-bars').on('click', function(){
-  //   $('nav.navigator').toggleClass('show-nav').toggleClass('navigator');
-  //   $('i.fa-bars').toggleClass('no-hamburger').toggleClass('fa-bars');
-  //   console.log("hamburger test")
-  // });
-
-
 
 //WHEN CLICK HAMBURGER, WE SEE THE MENU
 $('.fa-bars').on('click', function(){
@@ -36,6 +29,10 @@ $('.navigator a[href="#about"]').on('click', function(){
 
 $('.navigator a[href="#contact"]').on('click', function(){
   $('html,body').animate({scrollTop: $('#contact').offset().top}, 'slow');
+});
+
+$('h4 a[href="#about"]').on('click', function(){
+  $('html,body').animate({scrollTop: $('#about').offset().top}, 'slow');
 });
 
 })(); //END OF IIFE

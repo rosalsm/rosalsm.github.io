@@ -85,8 +85,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0px;
-  background-color: mediumseagreen;
-  color: floralwhite; }
+  background-color: mediumseagreen; }
   .main-nav .name-top {
     margin-left: 10%;
     width: 20%;
@@ -95,6 +94,9 @@ body {
     margin-top: 0;
     padding-top: 30px;
     padding-bottom: 5px; }
+    .main-nav .name-top a {
+      text-decoration: none;
+      color: floralwhite; }
   .main-nav .fa-bars {
     display: none; }
   .main-nav .navigator {
@@ -106,7 +108,7 @@ body {
       color: floralwhite;
       margin-right: 5%;
       margin-bottom: 5%;
-      font-weight: 200;
+      font-weight: 300;
       font-size: 1.2em; }
     .main-nav .navigator a:hover {
       color: #064029; }
@@ -162,7 +164,7 @@ body {
     .main-nav .show-nav {
       width: 100%;
       margin-top: -30px;
-      padding-bottom: 10px; }
+      padding-bottom: 15px; }
       .main-nav .show-nav a {
         display: block;
         text-decoration: none;
@@ -248,7 +250,7 @@ a:hover {
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 120px; }
-  .portfolio .portfolio .work:last-child {
+  .portfolio .work:last-child {
     border-bottom: 4px solid mediumseagreen; }
   .portfolio .work {
     margin-top: 2%;

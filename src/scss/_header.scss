@@ -8,12 +8,13 @@ body{
   background-color: $lightgreen;
 }
 
+
 .main-nav{
   position: fixed;
   width: 100%;
   top: 0px;
   background-color: $green;
-  color: $white;
+  //color: $white;
 
   .name-top{
     margin-left: 10%;
@@ -24,6 +25,12 @@ body{
     padding-top: 30px;
     padding-bottom: 5px;
     @extend .clearfix;
+
+    a{
+      text-decoration: none;
+      color: $white;
+    }
+
   }
 
   .fa-bars{
@@ -40,7 +47,7 @@ body{
       color: $white;
       margin-right: 5%;
       margin-bottom: 5%;
-      font-weight: 200;
+      font-weight: 300;
       font-size: 1.2em;
     }
 
@@ -126,7 +133,7 @@ body{
     .show-nav{
       width: 100%;
       margin-top: -30px;
-      padding-bottom: 10px;
+      padding-bottom: 15px;
 
       a{
         display: block;
