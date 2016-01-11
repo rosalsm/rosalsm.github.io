@@ -85,8 +85,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0px;
-  background-color: mediumseagreen;
-  color: floralwhite; }
+  background-color: mediumseagreen; }
   .main-nav .name-top {
     margin-left: 10%;
     width: 20%;
@@ -95,6 +94,9 @@ body {
     margin-top: 0;
     padding-top: 30px;
     padding-bottom: 5px; }
+    .main-nav .name-top a {
+      text-decoration: none;
+      color: floralwhite; }
   .main-nav .fa-bars {
     display: none; }
   .main-nav .navigator {
@@ -106,10 +108,10 @@ body {
       color: floralwhite;
       margin-right: 5%;
       margin-bottom: 5%;
-      font-weight: 200;
+      font-weight: 300;
       font-size: 1.2em; }
     .main-nav .navigator a:hover {
-      color: #064029; }
+      color: darkslategray; }
 
 @media (max-width: 1024px) and (min-width: 668px) {
   .main-nav {
@@ -141,7 +143,7 @@ body {
       .main-nav .show-nav a:last-child {
         margin-right: 0; }
       .main-nav .show-nav a:hover {
-        color: #064029; } }
+        color: darkslategray; } }
 
 @media (max-width: 667px) {
   .main-nav {
@@ -162,7 +164,7 @@ body {
     .main-nav .show-nav {
       width: 100%;
       margin-top: -30px;
-      padding-bottom: 10px; }
+      padding-bottom: 15px; }
       .main-nav .show-nav a {
         display: block;
         text-decoration: none;
@@ -206,7 +208,7 @@ h2 {
       font-weight: 200;
       margin: 0; }
     .about .main-about p {
-      color: #064029;
+      color: darkslategray;
       font-weight: 300;
       font-size: 16px;
       padding-bottom: 25px;
@@ -223,7 +225,7 @@ h2 {
   font-size: 3em; }
 
 a:hover {
-  color: #064029 !important; }
+  color: darkslategray !important; }
 
 @media (max-width: 667px) {
   .about {
@@ -247,8 +249,10 @@ a:hover {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 120px; }
-  .portfolio .portfolio .work:last-child {
+  padding-top: 100px; }
+  .portfolio .title-section {
+    margin-bottom: 30px; }
+  .portfolio .work:last-child {
     border-bottom: 4px solid mediumseagreen; }
   .portfolio .work {
     margin-top: 2%;
@@ -262,13 +266,13 @@ a:hover {
         font-size: 1.5em;
         font-weight: 300; }
       .portfolio .work .text .project-exp {
-        color: #064029;
+        color: darkslategray;
         font-weight: 300;
         font-size: 16px;
         padding-right: 5%;
         line-height: 26px; }
       .portfolio .work .text .project-links {
-        color: #064029; }
+        color: darkslategray; }
         .portfolio .work .text .project-links a {
           font-size: 1em;
           font-weight: 300;

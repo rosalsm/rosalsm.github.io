@@ -2,17 +2,22 @@
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 120px;
+  padding-top: 100px;
 
-  .portfolio .work:last-child{
-    border-bottom: 4px solid $green;
+  .title-section{
+    margin-bottom: 30px;
   }
+
+  .work:last-child{
+     border-bottom: 4px solid $green;
+   }
 
 // for all projects
   .work{
     margin-top: 2%;
     border-bottom: 2px solid $green;
     @extend .clearfix;
+
 
     .text{
           width: 100% * (2/3);
