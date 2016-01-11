@@ -15,6 +15,14 @@ $('nav a').on('click', function(){
 
 });
 
+//WHEN CLICK OUTSIDE THE MENU, COME BACK TO HAMBURGER
+$('.container').on('click', function(){
+  $('.show-nav').addClass('navigator').removeClass('show-nav');
+  $('.no-hamburger').addClass('fa-bars').removeClass('no-hamburger');
+  console.log("coming back to hamburger")
+
+})
+
 
 
 

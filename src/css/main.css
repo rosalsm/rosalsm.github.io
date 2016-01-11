@@ -111,7 +111,7 @@ body {
       font-weight: 300;
       font-size: 1.2em; }
     .main-nav .navigator a:hover {
-      color: #064029; }
+      color: darkslategray; }
 
 @media (max-width: 1024px) and (min-width: 668px) {
   .main-nav {
@@ -143,7 +143,7 @@ body {
       .main-nav .show-nav a:last-child {
         margin-right: 0; }
       .main-nav .show-nav a:hover {
-        color: #064029; } }
+        color: darkslategray; } }
 
 @media (max-width: 667px) {
   .main-nav {
@@ -208,7 +208,7 @@ h2 {
       font-weight: 200;
       margin: 0; }
     .about .main-about p {
-      color: #064029;
+      color: darkslategray;
       font-weight: 300;
       font-size: 16px;
       padding-bottom: 25px;
@@ -225,7 +225,7 @@ h2 {
   font-size: 3em; }
 
 a:hover {
-  color: #064029 !important; }
+  color: darkslategray !important; }
 
 @media (max-width: 667px) {
   .about {
@@ -249,7 +249,9 @@ a:hover {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 120px; }
+  padding-top: 100px; }
+  .portfolio .title-section {
+    margin-bottom: 30px; }
   .portfolio .work:last-child {
     border-bottom: 4px solid mediumseagreen; }
   .portfolio .work {
@@ -264,13 +266,13 @@ a:hover {
         font-size: 1.5em;
         font-weight: 300; }
       .portfolio .work .text .project-exp {
-        color: #064029;
+        color: darkslategray;
         font-weight: 300;
         font-size: 16px;
         padding-right: 5%;
         line-height: 26px; }
       .portfolio .work .text .project-links {
-        color: #064029; }
+        color: darkslategray; }
         .portfolio .work .text .project-links a {
           font-size: 1em;
           font-weight: 300;

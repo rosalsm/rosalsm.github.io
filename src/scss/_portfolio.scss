@@ -2,7 +2,11 @@
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 120px;
+  padding-top: 100px;
+
+  .title-section{
+    margin-bottom: 30px;
+  }
 
   .work:last-child{
      border-bottom: 4px solid $green;
