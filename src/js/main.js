@@ -1,10 +1,5 @@
 ;(function(){
 
-  document.write('<style type="text/css">body{display:none}</style>');
-  jQuery(function($) {
-  $('body').css('display','block');
-  });
-
 
 //WHEN CLICK HAMBURGER, WE SEE THE MENU AND COME BACK
 $('.fa-bars').on('click', function(){
