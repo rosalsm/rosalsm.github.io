@@ -1,4 +1,5 @@
-;(function(){
+;(function($){
+//make sure the DOM is ready
 
 
 //WHEN CLICK HAMBURGER, WE SEE THE MENU AND COME BACK
@@ -45,4 +46,4 @@ $('h4 a[href="#about"]').on('click', function(){
   $('html,body').animate({scrollTop: $('#about').offset().top}, 'slow');
 });
 
-})(); //END OF IIFE
+})(jQuery); //END OF IIFE
