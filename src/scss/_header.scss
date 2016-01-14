@@ -1,7 +1,6 @@
 $green: rgb(60,179,113);
 $white: rgb(255,250,240);
 $lightgreen: rgb(237,250,245);
-//$darkgreen: rgb(6,64,41);
 $darkgreen: rgb(47,79,79);
 
 body{
@@ -15,7 +14,6 @@ body{
   width: 100%;
   top: 0px;
   background-color: $green;
-  //color: $white;
 
   .name-top{
     margin-left: 10%;
@@ -51,60 +49,31 @@ body{
       font-weight: 300;
       font-size: 1.2em;
     }
-
-    a:hover{
-      //color: $darkgreen;
-    }
   }
-}
+
+} //end of .main-nav
+
+
+
+//DESKTOP only hover in desktop view
+@media (min-width: 1025px) {
+ .main-nav a:hover,
+ .main-about a:hover,
+ .portfolio .work .text a:hover,
+ .portfolio .work .text .project-links a:hover,
+ .contact-links a:hover{
+   color: $darkgreen;
+ }
+
+} //END DESKTOP
 
 //TABLET
 @media (max-width: 1024px) and (min-width: 668px){
   .main-nav{
-    //width: 100%;
-
-    // .fa-bars{
-    //   display: block;
-    //   color: $white;
-    //   font-size: 2em;
-    //   margin-left: 85%;
-    //   margin-right: 10%;
-    //   margin-top: -88px;
-    //   margin-bottom: 1%;
-    // }
-    //
-    // .no-hamburger{
-    //   display: none;
-    // }
-    //
      .navigator{
        width: 55%;
-    //   display: none;
      }
-    //
-    // .show-nav{
-    //   width: 70%;
-    //   float:right;
-    //   margin-top: -89px;
-    //
-    //   a{
-    //     text-decoration: none;
-    //     color: $white;
-    //     width: 20%;
-    //     margin-right: 7%;
-    //     margin-bottom: 5%;
-    //     font-weight: 200;
-    //     font-size: 1.8em;
-    //   }
-    //
-    //   a:last-child{
-    //     margin-right: 0;
-    //   }
-    //
-    //   a:hover{
-    //     color: $darkgreen;
-    //   }
-    //}
+
   }
 }//END of TABLET
 
@@ -124,10 +93,6 @@ body{
       margin-bottom: 1%;
      }
 
-    // .no-hamburger{
-    //   display: none;
-    // }
-
     .navigator{
       display: none;
     }
@@ -144,7 +109,6 @@ body{
         font-weight: 200;
         font-size: 1.8em;
         margin-left: 10%;
-        //margin-right: 10%;
         width: 35%;
        }
     }

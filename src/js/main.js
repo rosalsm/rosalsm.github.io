@@ -2,21 +2,17 @@
 
     //WHEN CLICK HAMBURGER, WE SEE THE MENU AND COME BACK
     $('.fa-bars').on('click', function(){
-      //$('.navigator').addClass('show-nav').removeClass('navigator');
-      //$('.fa-bars').addClass('no-hamburger').removeClass('fa-bars');
       $('nav').toggleClass('show-nav navigator');
     });
 
     //WHEN WE CLICK THE MENU, WE COME BACK TO HAMBURGER
     $('nav a').on('click', function(){
       $('.show-nav').addClass('navigator').removeClass('show-nav');
-      //$('.no-hamburger').addClass('fa-bars').removeClass('no-hamburger');
     });
 
     //WHEN CLICK OUTSIDE THE MENU, COME BACK TO HAMBURGER
     $('.container').on('click', function(){
       $('.show-nav').addClass('navigator').removeClass('show-nav');
-      //$('.no-hamburger').addClass('fa-bars').removeClass('no-hamburger');
     });
 
 
