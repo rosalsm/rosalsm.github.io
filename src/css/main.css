@@ -110,8 +110,14 @@ body {
       margin-bottom: 5%;
       font-weight: 300;
       font-size: 1.2em; }
-    .main-nav .navigator a:hover {
-      color: darkslategray; }
+
+@media (min-width: 1025px) {
+  .main-nav a:hover,
+  .main-about a:hover,
+  .portfolio .work .text a:hover,
+  .portfolio .work .text .project-links a:hover,
+  .contact-links a:hover {
+    color: darkslategray; } }
 
 @media (max-width: 1024px) and (min-width: 668px) {
   .main-nav .navigator {
@@ -194,9 +200,6 @@ h2 {
   color: mediumseagreen;
   font-size: 3em; }
 
-a:hover {
-  color: darkslategray !important; }
-
 @media (max-width: 667px) {
   .about {
     padding-top: 155px; }
@@ -231,7 +234,7 @@ a:hover {
       width: 66.66667%; }
       .portfolio .work .text a {
         text-decoration: none; }
-      .portfolio .work .text .project-title {
+      .portfolio .work .text .project-title, .portfolio .work .text a {
         color: mediumseagreen;
         font-size: 1.5em;
         font-weight: 300; }
@@ -241,15 +244,16 @@ a:hover {
         font-size: 16px;
         padding-right: 5%;
         line-height: 26px; }
+        .portfolio .work .text .project-exp a {
+          font-size: 16px; }
       .portfolio .work .text .project-links {
         color: darkslategray; }
         .portfolio .work .text .project-links a {
           font-size: 1em;
           font-weight: 300;
-          color: mediumseagreen;
-          text-decoration: none; }
+          color: mediumseagreen; }
     .portfolio .work img {
-      margin-top: -240px;
+      margin-top: -16.25em;
       border-radius: 20px;
       float: right;
       width: 33.33333%;
@@ -266,6 +270,8 @@ a:hover {
   text-align: center; }
 
 @media (max-width: 667px) {
+  .portfolio .title-section {
+    margin-bottom: 0px; }
   .portfolio .work .text {
     width: 90%;
     margin-left: 5%;
