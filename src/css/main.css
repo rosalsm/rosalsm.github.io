@@ -126,6 +126,8 @@ body {
 @media (max-width: 667px) {
   .main-nav {
     width: 100%; }
+    .main-nav .name-top a {
+      -webkit-tap-highlight-color: transparent; }
     .main-nav .fa-bars {
       display: block;
       float: right;
@@ -321,9 +323,9 @@ h2 {
 
 @media (max-width: 667px) {
   .contact-links {
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
     margin-top: 70px;
     margin-bottom: 70px; } }
 
