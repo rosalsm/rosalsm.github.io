@@ -185,7 +185,7 @@ h2 {
       margin: 0; }
     .about .main-about h3 {
       font-size: 1.5em;
-      font-weight: 200;
+      font-weight: 300;
       margin: 0; }
     .about .main-about p {
       color: darkslategray;
@@ -218,6 +218,10 @@ h2 {
       margin-right: 5%;
       float: none;
       margin-top: 0%; }
+      .about .main-about h1 span {
+        display: block; }
+      .about .main-about .line-fix {
+        line-height: 35px; }
   .fa {
     font-size: 3em;
     padding-right: 10px; } }
