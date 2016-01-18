@@ -44,7 +44,7 @@ h2{
 
     h3{
       font-size: 1.5em;
-      font-weight: 200;
+      font-weight: 300;
       margin: 0;
     }
 
@@ -91,6 +91,12 @@ h2{
       margin-right: 5%;
       float: none;
       margin-top: 0%;
+      h1 span{
+        display: block;
+      }
+      .line-fix{
+        line-height: 35px;
+      }
     }
   }
 

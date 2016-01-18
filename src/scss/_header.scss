@@ -82,6 +82,10 @@ body{
   .main-nav{
     width: 100%;
 
+     .name-top a{
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     }
+
      .fa-bars{
       display: block;
       float: right;

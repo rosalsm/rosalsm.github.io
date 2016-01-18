@@ -15,6 +15,11 @@
       $('.show-nav').addClass('navigator').removeClass('show-nav');
     });
 
+    //WHEN CLICK IN THE NAME IN THE MENU, COME BACK TO HAMBURGER
+    $('.name-top a').on('click', function(){
+      $('.show-nav').addClass('navigator').removeClass('show-nav');
+    });
+
 
 
 
