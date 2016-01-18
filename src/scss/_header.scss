@@ -91,6 +91,7 @@ body{
       margin-right: 10%;
       margin-top: -88px;
       margin-bottom: 1%;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
      }
 
     .navigator{
@@ -110,6 +111,7 @@ body{
         font-size: 1.8em;
         margin-left: 10%;
         width: 35%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
        }
     }
   }

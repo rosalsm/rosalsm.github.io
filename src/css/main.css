@@ -134,7 +134,8 @@ body {
       margin-left: 85%;
       margin-right: 10%;
       margin-top: -88px;
-      margin-bottom: 1%; }
+      margin-bottom: 1%;
+      -webkit-tap-highlight-color: transparent; }
     .main-nav .navigator {
       display: none; }
     .main-nav .show-nav {
@@ -148,7 +149,8 @@ body {
         font-weight: 200;
         font-size: 1.8em;
         margin-left: 10%;
-        width: 35%; } }
+        width: 35%;
+        -webkit-tap-highlight-color: transparent; } }
 
 h2 {
   font-weight: 300;
